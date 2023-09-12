@@ -12,6 +12,8 @@ data class SeasonsAverageModel(val __typename: String,
                             val awayTeamScore: Int,
                             val stadium: String)
 
+// Test change to test pr and merge process.
+
 class SeasonsAverage {
     fun getTypename(seasonsAverage: String): String {
         val seasonsAverageObj = Json.decodeFromString<SeasonsAverageModel>(seasonsAverage)
