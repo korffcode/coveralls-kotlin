@@ -11,7 +11,7 @@ on:
       - main
 jobs:
   coverage-check-main-pr:
-    name: Sonar Analysis Main
+    name: Coveralls Analysis Main
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
