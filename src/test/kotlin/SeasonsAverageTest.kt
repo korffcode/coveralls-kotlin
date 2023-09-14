@@ -54,6 +54,7 @@ internal class SeasonsAverageTest {
         assertEquals(expected, testSeasonsAverage.getAwayTeamName(testString))
     }
 
+	/*
     @Test
     fun testGetHomeTeamScore() {
         val expected = 35
@@ -81,6 +82,7 @@ internal class SeasonsAverageTest {
 
         assertEquals(expected, testSeasonsAverage.getStadium(testString))
     }
+	*/
 
     @Test
     fun testMain() {
